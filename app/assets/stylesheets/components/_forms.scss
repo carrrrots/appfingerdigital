@@ -1,0 +1,134 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+
+
+
+.signinSection {
+  position: absolute;
+  background: url(https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+  background-size: cover;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50rem;
+  // height: 450px;
+  // text-align: center;
+  display: flex;
+  color: rgb(32, 30, 30);
+  box-shadow: 3px 10px 20px 5px rgba(0, 0, 0, .5);
+  background-color: rgba(20, 20, 20, 0.39);
+
+}
+
+.login-heading {
+  margin-top: 4rem;
+  padding-bottom: 2rem;
+  margin-left: 7rem;
+  font-family: 'Noto Serif', serif;
+}
+
+.info {
+  font-family: 'Noto Serif', serif;
+  width: 350px;
+  height: 620px;
+  background: rgba(15, 15, 15, 0.507);
+  padding: 50px 0;
+    h2 {
+      font-weight: 300;
+    }
+
+    p {
+      font-size: 25px;
+      margin-top: 30px;
+      margin-left: 5rem;
+      text-shadow: 2px 2px 2px 5px rgb(0, 0, 0);
+
+    }
+}
+
+ul.noBullet {
+  font-family: 'Noto Serif',  serif;
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  // height: 450px;
+  h2 {
+    font-weight: 300;
+  }
+}
+
+.form-control {
+  border-radius: 3px;
+  background: rgba(202, 198, 198, 0.568);
+  border-top: hidden;
+  border-right: hidden;
+  border-left: hidden;
+  border-color: rgb(57, 99, 64);
+    &:focus {
+      background-color: rgba(202, 198, 198, 0.568);
+    }
+}
+
+.inputFields {
+  margin-bottom: 20px;
+  font-size: 20px;
+  outline: none;
+}
+
+.noBullet {
+  padding-top: 40px;
+  list-style-type: none;
+}
+
+.btn{
+  color: rgba(252, 249, 249, 0.897);
+  font-size: 18px;
+  height: 3rem;
+    &:hover {
+     color: rgba(252, 249, 249, 0.897);
+    }
+}
+
+#remember_me {
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+#join-btn{
+  align-self: center;
+  background: rgba(0, 0, 0, 0.671);
+  color: rgb(36, 34, 34);
+  padding: 0 25px;
+  cursor: pointer;
+  transition: .4s;
+    &:hover {
+      background: rgba(0, 0, 0, 0.671);
+      padding: 0 50px;
+      box-shadow: 4px 4px 10px rgb(8, 8, 8);
+      border-style: hidden;
+    }
+}
+
+.form-group {
+  // width: 50rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.shared-links {
+  color: black;
+  margin-left: 80px;
+  padding-top: 30px;
+  justify-content: space-around;
+}
+
+#globe-img {
+  color: #444d43;
+  margin-top: 8rem;
+  margin-left: 6rem;
+  text-shadow: 1px 1px 3px rgb(241, 237, 237);
+    &:hover {
+      text-shadow: 2px 2px 5px rgb(241, 237, 237);
+    }
+}
