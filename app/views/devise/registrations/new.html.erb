@@ -1,25 +1,32 @@
-<h2>Sign up</h2>
+<%= link_to "#", class: "navbar-brand" do %>
+    <i class="spider-icon fas fa-spider fa-2x"></i>
+  <% end %>
 
-<%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
-  <%= f.error_notification %>
-
-  <div class="form-inputs">
-    <%= f.input :email,
-                required: true,
-                autofocus: true,
-                input_html: { autocomplete: "email" }%>
-    <%= f.input :password,
-                required: true,
-                hint: ("#{@minimum_password_length} characters minimum" if @minimum_password_length),
-                input_html: { autocomplete: "new-password" } %>
-    <%= f.input :password_confirmation,
-                required: true,
-                input_html: { autocomplete: "new-password" } %>
+<div class="signinSection">
+  <div class="info">
+    <div>
+      <img src="http://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/07251dd83fec482.png" alt="Minha Figura" id="form-img">
+    </div>
+    <p>The Future Is You</p>
   </div>
-
-  <div class="form-actions">
-    <%= f.button :submit, "Sign up" %>
-  </div>
-<% end %>
-
-<%= render "devise/shared/links" %>
+  <form action="#" method="POST" class="signupForm" name="signupform">
+    <h2>Sign Up</h2>
+    <ul class="noBullet">
+      <li>
+        <label for="username"></label>
+        <input type="text" class="inputFields" id="username" name="username" placeholder="Username" value="" oninput="return userNameValidation(this.value)" required/>
+      </li>
+      <li>
+        <label for="password"></label>
+        <input type="password" class="inputFields" id="password" name="password" placeholder="Password" value="" oninput="return passwordValidation(this.value)" required/>
+      </li>
+      <li>
+        <label for="email"></label>
+        <input type="email" class="inputFields" id="email" name="email" placeholder="Email" value="" required/>
+      </li>
+      <li id="center-btn">
+        <input type="submit" id="join-btn" name="join" alt="Join" value="Join">
+      </li>
+    </ul>
+  </form>
+</div>
