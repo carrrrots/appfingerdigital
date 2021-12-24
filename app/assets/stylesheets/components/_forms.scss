@@ -29,13 +29,9 @@
 .info {
   font-family: 'Noto Serif', serif;
   width: 350px;
-  height: 620px;
+  height: cover;
   background: rgba(15, 15, 15, 0.507);
   padding: 50px 0;
-    h2 {
-      font-weight: 300;
-    }
-
     p {
       font-size: 25px;
       margin-top: 30px;
@@ -50,7 +46,6 @@ ul.noBullet {
   display: flex;
   flex-direction: column;
   width: 25rem;
-  // height: 450px;
   h2 {
     font-weight: 300;
   }
@@ -84,7 +79,7 @@ ul.noBullet {
   font-size: 18px;
   height: 3rem;
     &:hover {
-     color: rgba(252, 249, 249, 0.897);
+      color: rgba(252, 249, 249, 0.897);
     }
 }
 
@@ -109,11 +104,9 @@ ul.noBullet {
 }
 
 .form-group {
-  // width: 50rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
-
 }
 
 .shared-links {
