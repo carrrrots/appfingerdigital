@@ -43,12 +43,21 @@
 
 #globe-img {
   color: #444d43;
-  margin-top: 8rem;
+  margin-top: 6rem;
   margin-left: 7rem;
   text-shadow: 1px 1px 3px rgb(241, 237, 237);
     &:hover {
       text-shadow: 2px 2px 5px rgb(241, 237, 237);
     }
+}
+
+#login-title {
+  padding: 5rem;
+  padding-bottom: 2rem;
+  margin-left: 2rem;
+  font-family: 'Comfortaa', cursive;
+  font-weight: bold;
+
 }
 
 ul.noBullet {
