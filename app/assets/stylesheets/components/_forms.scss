@@ -43,7 +43,7 @@
 
 #globe-img {
   color: #444d43;
-  margin-top: 6rem;
+  margin-top: 40%;
   margin-left: 7rem;
   text-shadow: 1px 1px 3px rgb(241, 237, 237);
     &:hover {
@@ -129,4 +129,15 @@ ul.noBullet {
   margin-left: 80px;
   padding-top: 30px;
   justify-content: space-around;
+}
+
+
+//specific css for EDIT Account
+
+.cancel-account {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+  margin-top: 2em;
 }
