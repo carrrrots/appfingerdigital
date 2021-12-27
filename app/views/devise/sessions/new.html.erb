@@ -2,15 +2,13 @@
 <div class="login-container d-flex flex-column">
   <div class="signinSection">
     <div class="info">
-
       <div>
         <i class="fas fa-10x fa-globe" id="globe-img"></i>
       </div>
       <p>The Future Is Here</p>
     </div>
-
     <div class="form-group">
-    <div>
+      <div>
         <h2 id="login-title">Welcome Back !</h2>
       </div>
       <%= simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
