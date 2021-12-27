@@ -9,7 +9,7 @@
     </div>
     <div class="form-group">
       <div>
-        <h2 class='login-heading'>Sign Up</h2>
+        <h2 class="login-heading" id="signup">Sign Up</h2>
       </div>
       <%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
         <div class="signinForm">
@@ -40,8 +40,8 @@
             <li class="inputFields" id="remember_me">
               <%= f.input :remember_me, as: :boolean if devise_mapping.rememberable? %>
             </li>
-            <li  id="join-btn" class="btn rounded">
-              <%= f.button :submit, "Sign Up" %>
+            <li  id="join-btn" class="btn-submit rounded">
+              <%= f.button :submit, "Join" %>
             </li>
           </ul>
         </div>

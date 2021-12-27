@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+@import url(https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;600&display=swap);
 
 
 
@@ -10,8 +10,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 50rem;
-  // height: 450px;
-  // text-align: center;
   display: flex;
   color: rgb(32, 30, 30);
   box-shadow: 3px 10px 20px 5px rgba(0, 0, 0, .5);
@@ -19,25 +17,37 @@
 
 }
 
-.login-heading {
+#signup {
   margin-top: 4rem;
-  padding-bottom: 2rem;
-  margin-left: 7rem;
-  font-family: 'Noto Serif', serif;
+  padding-bottom: 0;
+  margin-left: 10rem;
+  font-family: 'Comfortaa', cursive;
+  font-weight: bold;
+  color: rgb(65, 82, 69);
 }
 
 .info {
-  font-family: 'Noto Serif', serif;
+  font-family: 'Comfortaa', cursive;
   width: 350px;
   height: cover;
   background: rgba(15, 15, 15, 0.507);
   padding: 50px 0;
-    p {
-      font-size: 25px;
-      margin-top: 30px;
-      margin-left: 5rem;
-      text-shadow: 2px 2px 2px 5px rgb(0, 0, 0);
+  p {
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 4rem;
+    text-shadow: 2px 2px 2px 5px rgb(0, 0, 0);
+    font-weight: bold;
+  }
+}
 
+#globe-img {
+  color: #444d43;
+  margin-top: 8rem;
+  margin-left: 7rem;
+  text-shadow: 1px 1px 3px rgb(241, 237, 237);
+    &:hover {
+      text-shadow: 2px 2px 5px rgb(241, 237, 237);
     }
 }
 
@@ -64,6 +74,8 @@ ul.noBullet {
 }
 
 .inputFields {
+  font-family: 'Comfortaa', cursive;
+  font-weight: bold;
   margin-bottom: 20px;
   font-size: 20px;
   outline: none;
@@ -74,18 +86,19 @@ ul.noBullet {
   list-style-type: none;
 }
 
+#remember_me {
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
 .btn{
+  font-family: 'Comfortaa', cursive;
   color: rgba(252, 249, 249, 0.897);
   font-size: 18px;
   height: 3rem;
     &:hover {
       color: rgba(252, 249, 249, 0.897);
     }
-}
-
-#remember_me {
-  font-size: 15px;
-  margin-bottom: 30px;
 }
 
 #join-btn{
@@ -96,17 +109,10 @@ ul.noBullet {
   cursor: pointer;
   transition: .4s;
     &:hover {
-      background: rgba(0, 0, 0, 0.671);
       padding: 0 50px;
       box-shadow: 4px 4px 10px rgb(8, 8, 8);
       border-style: hidden;
     }
-}
-
-.form-group {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
 }
 
 .shared-links {
@@ -114,14 +120,4 @@ ul.noBullet {
   margin-left: 80px;
   padding-top: 30px;
   justify-content: space-around;
-}
-
-#globe-img {
-  color: #444d43;
-  margin-top: 8rem;
-  margin-left: 6rem;
-  text-shadow: 1px 1px 3px rgb(241, 237, 237);
-    &:hover {
-      text-shadow: 2px 2px 5px rgb(241, 237, 237);
-    }
 }
