@@ -1,2 +1,19 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+
+<div class="banner-container banner fixed-top" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1513530534585-c7b1394c6d51?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80);">
+  <div class="container">
+    <div class="content">
+      <h1 id="title">Welcome to <br>Ytive</h1>
+    </div>
+    <div>
+      <p id="paragraph" class="content">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+         tempor <br> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+         quis nostrud <br> exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
+         <strong>Also YOU can participate.</strong>
+      </p>
+      <div class="box-btn">
+        <%= link_to "Join Us!", new_user_session_path(@user), class: "btn btn-white join-btn" %>
+      </div>
+    </div>
+  </div>
+</div>
